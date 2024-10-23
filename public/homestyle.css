@@ -1,0 +1,48 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.link {
+  margin-right: 10px;
+}
+
+.container {
+  width: 300px;
+  margin: 100px auto;
+}
+
+.loginform {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.loginform label {
+  display: block;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.loginform input[type="text"], .loginform input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+}
+
+.loginform button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
