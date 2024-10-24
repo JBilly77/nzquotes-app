@@ -1,0 +1,21 @@
+body {
+    background-color: #007bff; /* Blue background */
+    color: #ffff00; /* Yellow text */
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 40px auto;
+  }
+  
+  h1 {
+    color: #ffff00; /* Yellow text for h1 */
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }

@@ -53,5 +53,10 @@ app.get('/', (req, res) => {
 //     res.download('./public/tnnovation.png')
 // });
 
+// Error handling middleware
+app.use((error, req, res, next) => {
+    res.status(404).send(error.message);
+    next();
+  });
 
 app.listen(PORT, () => console.log(`Server running on port: ${PORT}`));

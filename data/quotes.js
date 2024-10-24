@@ -1,4 +1,4 @@
-export const posts = [
+export const quotes = [
     {
       id: 1,  
       category: "Insperational",
