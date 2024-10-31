@@ -4,6 +4,10 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
   }
+
+  .link {
+    margin-right: 10px;
+  } 
   
   .container {
     width: 80%;

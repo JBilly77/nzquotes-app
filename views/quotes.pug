@@ -1,9 +1,21 @@
 html
   head
     title NZ QUOTES
-    link(rel="stylesheet" href="quotes.css")
+    link(rel="stylesheet" href="/quotes.css")
+    link(rel="stylesheet" href="/quotes2.css")
   body
-    .container
-        h1 NZ Quotes Page
-        p Welcome, #{name} (#{email})!
-        // Display quotes content here
+  a.link(href='/') HOME
+  a.link(href='/about') About
+    
+  .container
+    h1 NZ Quotes Page
+    p Welcome, #{name} (#{email})!
+
+//- Quotes container
+.quotes-container
+  each quote  in quotes
+    .quote-card
+      .quote-author #{quote.author}
+      .quote-text #{quote.text}
+      .quote-category #{quote.category}
+  block content 

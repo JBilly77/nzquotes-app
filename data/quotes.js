@@ -1,3 +1,4 @@
+//Define JSON data for quotes
 export const quotes = [
     {
       id: 1,  
@@ -28,7 +29,7 @@ export const quotes = [
         category: "Technology",
         author: "Bill Gates",
         text: "The advance of technology is based on making it fit in so that you don't really even notice it, so it's part of everyday life."
-    }   
-  ];
-  
-//   module.exports = posts;
+    },    
+];
+   
+//module.exports = quotes;
